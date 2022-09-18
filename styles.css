@@ -1,0 +1,37 @@
+html, body, div {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    border: solid rgb(165, 165, 165) 1px;
+    display: block;
+}
+
+.hoverColor {
+    background-color: gold;
+}
+
+.buttons {
+    margin: 50px;
+}

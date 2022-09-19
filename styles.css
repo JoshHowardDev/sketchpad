@@ -4,15 +4,27 @@ html, body, div {
 }
 
 body {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.colorOptionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
 .gridContainer {
-    width: 700px;
-    height: 700px;
+    width: 80vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
 }
@@ -28,10 +40,10 @@ body {
     display: block;
 }
 
-.hoverColor {
-    background-color: gold;
-}
-
 .buttons {
     margin: 50px;
+}
+
+.colorRadios {
+    margin: 20px;
 }
